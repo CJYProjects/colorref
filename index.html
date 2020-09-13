@@ -7,6 +7,8 @@
         
         <link rel="stylesheet" href="colorrefstyle.css"></link>
         
+        <script src="html5sortable.js"></script>
+        
     </head>
     
     <body>
@@ -18,24 +20,6 @@
             <a href="#title">^</a>
         </div>
         
-        <!--
-        <section class="container">
-            <h1>Sample Card</h1>
-            <div class="card card-sample">
-                <div class="color" style="background-color: black">
-                </div>
-                <div class="description">
-                    <table>
-                        <tr><th>Name:</th><td>black</td></tr>
-                        <tr><th>Hex:</th><td>#000000</td></tr>
-                        <tr><th>RGB:</th><td>0, 0, 0</td></tr>
-                        <tr><th>HSL:</th><td>0, 0, 0</td></tr>
-                    </table>
-                </div>
-            </div>
-        </section>
-        <hr>
-        -->
         <div class="container">
             <ul class="deck">
                 <li class="card"> <!-- aliceblue -->
@@ -1708,6 +1692,10 @@
                 </li>
             </ul>
         </div>
+        
+        <script>
+            sortable('.deck');
+        </script>
         
     </body>
 </html>
