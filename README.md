@@ -8,5 +8,6 @@ Current features:
 To do:
 - make cards draggable for personalized sorting and comparing of colors
 - better way to populate list of colors instead of hardcoding them
+- make site responsive
 
 Click [here](https://cjyprojects.github.io/colorref/) to view the project.
