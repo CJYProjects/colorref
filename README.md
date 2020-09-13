@@ -4,9 +4,9 @@ Something born out of frustration. I had a bunch of e-books and no internet. On 
 Current features:
 - a list of colors along with names, hex code and hsl numbers
 - colors zoom on hover
+- sortable cards using [HTML5Sortable](https://github.com/lukasoppermann/html5sortable)
 
 To do:
-- make cards draggable for personalized sorting and comparing of colors
 - better way to populate list of colors instead of hardcoding them
 - make site responsive
 
