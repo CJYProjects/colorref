@@ -65,40 +65,66 @@ header h1{
     list-style-type: none;
 }
 
-.card-sample{
-    display: inline-block;
+@media screen and (max-width: 767px){
+    .card{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        width: 240px;
+        display: flex;
+        align-items: center;
+    }
+
+    .color{
+        border-style: solid;
+        border-width: thick;
+        height: 50px;
+        width: 50px;
+        display: inline-block;
+    }
+
+    .color:hover{
+        zoom: 1.5;
+    }
+
+    .color:focus{
+        zoom: 1.5;
+    }
+
+    .description{
+        padding-left: 10px;
+        display: inline-block;
+    }
 }
 
-.color{
-    border-style: solid;
-    border-width: thick;
-    height: 50px;
-    width: 50px;
-    display: inline-block;
-}
+@media screen and (min-width: 768px){
+    .card{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        width: 160px;
+        draggable: true;
+    }
 
-.color:hover{
-    zoom: 1.5;
-}
+    .color{
+        border-style: solid;
+        border-width: thick;
+        height: 50px;
+        width: 50px;
+        display: inline-block;
+    }
 
-.color:focus{
-    zoom: 1.5;
-}
+    .color:hover{
+        zoom: 1.5;
+    }
 
-.card{
-    background-color: white;
-    padding: 10px;
-    margin: 10px;
-    width: 160px;
-    /* draggable: true; */
-}
+    .color:focus{
+        zoom: 1.5;
+    }
 
-/* .card:hover{
-    cursor: move;
-}*/
-
-.description{
-    padding-top: 10px;
+    .description{
+        padding-top: 10px;
+    }
 }
 
 table{
