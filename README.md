@@ -7,7 +7,5 @@ Current features:
 - responsive design
 - sortable cards using [HTML5Sortable](https://github.com/lukasoppermann/html5sortable)
 
-To do:
-- better way to populate list of colors instead of hardcoding them
-
-Click [here](https://cjyprojects.github.io/colorref/) to view the project.
+Click [here](https://cjyprojects.github.io/colorref/) to view the demo site.
+Click [here](https://trello.com/b/OGwBPCG0) to see what's in store for this project.
