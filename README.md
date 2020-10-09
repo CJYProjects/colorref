@@ -1,5 +1,5 @@
 # Color Reference
-Something born out of frustration. I had a bunch of e-books and no internet. On the plus side, e-books had a list of color names and code. On the other hand, there's no way to see how the actual colors look like. So, I made my own color reference.
+Something born out of frustration. I was trying to learn front and didn't have internet connection at the time. On one hand, I had a bunch of e-books that had a list of color names and code. On the other hand, the books were in black and white and there's no way to see how the actual colors look like. So, I made my own color reference.
 
 Current features:
 - a list of colors along with names, hex code and hsl numbers
